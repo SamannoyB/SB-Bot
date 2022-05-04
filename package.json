@@ -1,0 +1,8 @@
+{
+    "name": "new-project",
+    "author": "demo-user",
+    "publish": false,
+    "dependencies": {
+      "lib": "latest"
+    }
+  }
