@@ -1,6 +1,6 @@
 const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
 
-const bannedWords = ['wtf','shit','fuck','wretch','stfu','nig'];
+const bannedWords = ['wtf','shit','fuck','wretch','stfu','nig','hell'];
 
 let writtenWord = context.params.event.content.toLowerCase();
 
