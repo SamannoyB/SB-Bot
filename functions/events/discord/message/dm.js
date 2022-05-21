@@ -1,3 +1,4 @@
+//dm.js
 const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
 
 if (context.params.event.content.startsWith(`${process.env.PREFIX}dm`)){
